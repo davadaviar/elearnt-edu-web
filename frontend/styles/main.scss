@@ -1,0 +1,536 @@
+body {
+    background-color: #fff;
+    font-family: 'Assistant', sans-serif;
+    color: #212B33;
+    behavior: smooth;
+
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+
+    .text-blue {
+        color: #316AFF;
+    }
+
+    .text-black {
+        color: #212B33;
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: #212B33;
+
+            &.active {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.navbar-collapse {
+
+    background-color: #fff;
+}
+
+.btn-login {
+    background-color: #212B33;
+    color: #fff;
+
+    &:hover {
+        background-color: #6e7072;
+        color: #fff;
+    }
+}
+
+.hero-heading {
+    
+    h1 {
+        font-size: 60px;
+        font-weight: bold;
+        position: relative;
+        margin-top: 100px;
+
+        .heading-blue {
+            color: #316AFF;
+        }
+    }
+
+    .btn-get-started {
+        background-color: #316AFF;
+        color: #fff;
+        margin-top: 48px;
+
+        &:hover {
+            background-color: #5f8cfd;
+            color: #fff;
+        }
+    }
+
+    .btn-learn-more {
+        color: #B1B1B1;
+        border: 2px solid #B1B1B1;
+        margin-top: 48px;
+
+        &:hover {
+            border: 2px solid #212B33;
+            color: #212B33;
+            font-weight: normal;
+        }
+    }
+    
+}
+
+.section-software {
+    min-height: 550px;
+    background-color: #212B33;
+    margin-top: 80px;
+   
+    .section-software-heading {
+        margin-top: 50px;
+    
+        h2 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            font-size: 40px;
+            color: #fff;
+        }
+    
+        p {
+            font-size: 20px;
+            font-family: 'Assistant', sans-serif;
+            font-weight: 300;
+            color: #fff;
+        }
+    
+        .software-text-blue {
+            color: #316AFF;
+        }
+    }
+}
+
+.section-content-software {
+    margin-top: -240px;
+    margin-bottom: 10px;
+    padding-top: 50px;
+
+    .card-content {
+        border-radius: 11px;
+        padding: 40px 40px 10px;
+        margin-bottom: 20px;
+    }
+
+    .content-software {
+        min-height: 200px;
+
+        .icon-images {
+            width: 85px;
+            height: 85px;
+        }
+
+        h3 {
+            color: #316AFF;
+            font-size: 25px;
+        }
+
+        .content-soft {
+            font-family: 'Assistant', sans-serif;
+            font-weight: 300;
+            font-size: 18px;
+            min-height: 150px;
+        }
+    }
+}
+
+.section-elearnt {
+    margin-top: 120px;
+    margin-bottom: 30px;
+
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+
+    .elearnt-blue {
+        color: #316AFF;
+    }
+
+    p {
+        font-family: 'Assistant', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+    }
+
+
+}
+
+.section-elearnt-content {
+   .card-instructor {
+       min-height: 384px;
+       background-size: cover;
+       margin-bottom: 50px;
+       padding: 30px;
+       border-radius: 11px;
+
+       .text-instructor {
+           margin-top: 110px;
+           color: #fff;
+           font-family: 'Poppins', sans-serif;
+           font-weight: 500;
+           font-size: 35px;
+       }
+
+       .btn-start-class {
+           margin-top: -210px;
+           color: #fff;
+           font-family: 'Assistant', sans-serif;
+           font-weight: 300;
+           font-size: 18px;
+       }
+
+       .btn-start-student {
+           background-color: #316AFF;
+            margin-top: -210px;
+            color: #fff;
+            font-family: 'Assistant', sans-serif;
+            font-weight: 300;
+            font-size: 18px;
+
+            &:hover {
+                background-color: #5f8cfd;
+                color: #fff;
+            }
+       }
+   }
+}
+
+.section-tools {
+    background-color: #212B33;
+    min-height: 620px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-top: 100px;
+
+    .description {
+        padding-top: 60px;
+        padding-bottom: 20px;
+
+        h2 {
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            font-size: 40px;
+            margin-bottom: 30px;
+
+            .tools-teacher-blue {
+                color: #316AFF;
+            }
+        }
+
+        p {
+            color: #fff;
+            font-family: 'Assistant', sans-serif;
+            font-weight: 300;
+            font-size: 20px;
+            margin-bottom: 0;
+        }
+    }
+
+    .images-study {
+        max-width: 100%;
+        padding-top: 60px;
+        padding-bottom: 160px;
+    }
+}
+
+.section-statistic {
+
+    margin: -100px 15px 50px;
+
+    .statistic-details {
+        background-color: #fff;
+        border-radius: 11px;
+        padding-left: 0px;
+        padding-top: 15px;
+        color: #212B33;
+
+        p {
+            font-family: 'Assistant', sans-serif;
+            font-weight: 300;
+            font-size: 20px;
+        }
+    }
+}
+
+.section-testimonial-heading {
+    margin-top: 100px;
+
+    h2 {
+        font-family: 'Poppins', sans-serif;
+            font-size: 40px;
+            font-weight: bold;
+    }
+
+    .heading-testimonial {
+        .testi-blue {
+            color: #316AFF;
+        }
+    }
+}
+
+.section-testimonials {
+    margin-top: 50px;
+    min-height: 100vh;
+
+    .card-testimonials {
+        min-height: 500px;
+        margin-bottom: 30px;
+        padding: 80px 40px 20px;
+        border-radius: 11px;
+
+        hr {
+            margin-right: -40px;
+            margin-left: -40px;
+        }
+
+        .testi-description {
+            min-height: 250px;
+
+            .testi-content {
+              font-family: 'Assistant',sans-serif;
+              font-size: 25px;
+              font-weight: 300;
+              color: #212B33;
+            }
+
+        }
+
+        .profile-description {
+            .profile-image {
+                margin-top: 10px;
+                margin-left: 10px;
+                float: left;
+                overflow: hidden;
+            }
+
+            .name-profile {
+                float: left;
+                margin-left: 15px;
+                padding: 10px;
+                font-family: 'Assistant', sans-serif;
+                font-size: 22px;
+            }
+        }
+    }
+}
+
+.section-footer {
+    min-height: 300px;
+    background-color: #212B33;
+
+    h2 {
+        font-family: 'Assistant', sans-serif;
+        font-weight: 300;
+        font-size: 22px;
+        color: #fff;
+    }
+
+    a {
+        font-family: 'Assistant', sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        color: #fff;
+    }
+
+    .copyright {
+        color: #fff;
+        padding-bottom: 30px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .navbar-brand {
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 40px;
+    
+        .text-blue {
+            color: #316AFF;
+        }
+    
+        .text-black {
+            color: #212B33;
+        }
+    }
+
+    .btn-login {
+        background-color: #212B33;
+        color: #fff;
+        margin-left: 20px;
+    
+        &:hover {
+            background-color: #6e7072;
+            color: #fff;
+        }
+    }
+
+    .hero-heading {
+
+        margin-top: 100px;
+        margin-bottom: 300px;
+    
+        h1 {
+            font-size: 75px;
+            font-weight: bold;
+            position: absolute;
+    
+            .heading-blue {
+                color: #316AFF;
+            }
+        }
+    
+        .btn-get-started {
+            background-color: #316AFF;
+            color: #fff;
+            margin-top: 350px;
+    
+            &:hover {
+                background-color: #5f8cfd;
+                color: #fff;
+            }
+        }
+    
+        .btn-learn-more {
+            color: #B1B1B1;
+            border: 2px solid #B1B1B1;
+            margin-top: 350px;
+    
+            &:hover {
+                border: 2px solid #212B33;
+                color: #212B33;
+                font-weight: normal;
+            }
+        }
+        
+    }
+
+    .section-software {
+        min-height:500px;
+        background-color: #212B33;
+        margin-top: 80px;
+       
+        .section-software-heading {
+            margin-top: 100px;
+        
+            h2 {
+                font-family: 'Poppins', sans-serif;
+                font-weight: bold;
+                font-size: 40px;
+                color: #fff;
+            }
+        
+            p {
+                font-size: 20px;
+                font-family: 'Assistant', sans-serif;
+                font-weight: 300;
+                color: #fff;
+            }
+        
+            .software-text-blue {
+                color: #316AFF;
+            }
+        }
+    }
+
+    .section-statistic {
+
+        margin: -100px 15px 30px;
+    
+        .statistic-details {
+            background-color: #fff;
+            border-radius: 11px;
+            padding-left: 0px;
+            padding-top: 15px;
+            color: #212B33;
+    
+            p {
+                font-family: 'Assistant', sans-serif;
+                font-weight: 300;
+                font-size: 20px;
+            }
+        }
+    }
+
+    .section-testimonial-heading {
+        margin-top: 50px;
+    
+        h2 {
+            font-family: 'Poppins', sans-serif;
+                font-size: 40px;
+                font-weight: bold;
+        }
+    
+        .heading-testimonial {
+            .testi-blue {
+                color: #316AFF;
+            }
+        }
+    }
+    
+    .section-testimonials {
+        margin-top: 50px;
+        min-height: 100vh;
+    
+        .card-testimonials {
+            min-height: 500px;
+            margin-bottom: 30px;
+            padding: 80px 40px 20px;
+            border-radius: 11px;
+    
+            hr {
+                margin-right: -40px;
+                margin-left: -40px;
+            }
+    
+            .testi-description {
+                min-height: 250px;
+    
+                .testi-content {
+                  font-family: 'Assistant',sans-serif;
+                  font-size: 25px;
+                  font-weight: 300;
+                  color: #212B33;
+                }
+    
+            }
+    
+            .profile-description {
+                .profile-image {
+                    margin-top: 10px;
+                    margin-left: 10px;
+                    float: left;
+                    overflow: hidden;
+                }
+    
+                .name-profile {
+                    float: left;
+                    margin-left: 15px;
+                    padding: 10px;
+                    font-family: 'Assistant', sans-serif;
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}

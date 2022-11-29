@@ -1,0 +1,479 @@
+body {
+  background-color: #fff;
+  font-family: 'Assistant', sans-serif;
+  color: #212B33;
+  behavior: smooth;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.navbar-brand .text-blue {
+  color: #316AFF;
+}
+
+.navbar-brand .text-black {
+  color: #212B33;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #212B33;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+}
+
+.navbar-collapse {
+  background-color: #fff;
+}
+
+.btn-login {
+  background-color: #212B33;
+  color: #fff;
+}
+
+.btn-login:hover {
+  background-color: #6e7072;
+  color: #fff;
+}
+
+.hero-heading h1 {
+  font-size: 60px;
+  font-weight: bold;
+  position: relative;
+  margin-top: 100px;
+}
+
+.hero-heading h1 .heading-blue {
+  color: #316AFF;
+}
+
+.hero-heading .btn-get-started {
+  background-color: #316AFF;
+  color: #fff;
+  margin-top: 48px;
+}
+
+.hero-heading .btn-get-started:hover {
+  background-color: #5f8cfd;
+  color: #fff;
+}
+
+.hero-heading .btn-learn-more {
+  color: #B1B1B1;
+  border: 2px solid #B1B1B1;
+  margin-top: 48px;
+}
+
+.hero-heading .btn-learn-more:hover {
+  border: 2px solid #212B33;
+  color: #212B33;
+  font-weight: normal;
+}
+
+.section-software {
+  min-height: 550px;
+  background-color: #212B33;
+  margin-top: 80px;
+}
+
+.section-software .section-software-heading {
+  margin-top: 50px;
+}
+
+.section-software .section-software-heading h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+}
+
+.section-software .section-software-heading p {
+  font-size: 20px;
+  font-family: 'Assistant', sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+.section-software .section-software-heading .software-text-blue {
+  color: #316AFF;
+}
+
+.section-content-software {
+  margin-top: -240px;
+  margin-bottom: 10px;
+  padding-top: 50px;
+}
+
+.section-content-software .card-content {
+  border-radius: 11px;
+  padding: 40px 40px 10px;
+  margin-bottom: 20px;
+}
+
+.section-content-software .content-software {
+  min-height: 200px;
+}
+
+.section-content-software .content-software .icon-images {
+  width: 85px;
+  height: 85px;
+}
+
+.section-content-software .content-software h3 {
+  color: #316AFF;
+  font-size: 25px;
+}
+
+.section-content-software .content-software .content-soft {
+  font-family: 'Assistant', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  min-height: 150px;
+}
+
+.section-elearnt {
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+
+.section-elearnt h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.section-elearnt .elearnt-blue {
+  color: #316AFF;
+}
+
+.section-elearnt p {
+  font-family: 'Assistant', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.section-elearnt-content .card-instructor {
+  min-height: 384px;
+  background-size: cover;
+  margin-bottom: 50px;
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.section-elearnt-content .card-instructor .text-instructor {
+  margin-top: 110px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.section-elearnt-content .card-instructor .btn-start-class {
+  margin-top: -210px;
+  color: #fff;
+  font-family: 'Assistant', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.section-elearnt-content .card-instructor .btn-start-student {
+  background-color: #316AFF;
+  margin-top: -210px;
+  color: #fff;
+  font-family: 'Assistant', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.section-elearnt-content .card-instructor .btn-start-student:hover {
+  background-color: #5f8cfd;
+  color: #fff;
+}
+
+.section-tools {
+  background-color: #212B33;
+  min-height: 620px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding-top: 100px;
+}
+
+.section-tools .description {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.section-tools .description h2 {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.section-tools .description h2 .tools-teacher-blue {
+  color: #316AFF;
+}
+
+.section-tools .description p {
+  color: #fff;
+  font-family: 'Assistant', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.section-tools .images-study {
+  max-width: 100%;
+  padding-top: 60px;
+  padding-bottom: 160px;
+}
+
+.section-statistic {
+  margin: -100px 15px 50px;
+}
+
+.section-statistic .statistic-details {
+  background-color: #fff;
+  border-radius: 11px;
+  padding-left: 0px;
+  padding-top: 15px;
+  color: #212B33;
+}
+
+.section-statistic .statistic-details p {
+  font-family: 'Assistant', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.section-testimonial-heading {
+  margin-top: 100px;
+}
+
+.section-testimonial-heading h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.section-testimonial-heading .heading-testimonial .testi-blue {
+  color: #316AFF;
+}
+
+.section-testimonials {
+  margin-top: 50px;
+  min-height: 100vh;
+}
+
+.section-testimonials .card-testimonials {
+  min-height: 500px;
+  margin-bottom: 30px;
+  padding: 80px 40px 20px;
+  border-radius: 11px;
+}
+
+.section-testimonials .card-testimonials hr {
+  margin-right: -40px;
+  margin-left: -40px;
+}
+
+.section-testimonials .card-testimonials .testi-description {
+  min-height: 250px;
+}
+
+.section-testimonials .card-testimonials .testi-description .testi-content {
+  font-family: 'Assistant',sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  color: #212B33;
+}
+
+.section-testimonials .card-testimonials .profile-description .profile-image {
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+  overflow: hidden;
+}
+
+.section-testimonials .card-testimonials .profile-description .name-profile {
+  float: left;
+  margin-left: 15px;
+  padding: 10px;
+  font-family: 'Assistant', sans-serif;
+  font-size: 22px;
+}
+
+.section-footer {
+  min-height: 300px;
+  background-color: #212B33;
+}
+
+.section-footer h2 {
+  font-family: 'Assistant', sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  color: #fff;
+}
+
+.section-footer a {
+  font-family: 'Assistant', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.section-footer .copyright {
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+  .navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .navbar-brand .text-blue {
+    color: #316AFF;
+  }
+  .navbar-brand .text-black {
+    color: #212B33;
+  }
+  .btn-login {
+    background-color: #212B33;
+    color: #fff;
+    margin-left: 20px;
+  }
+  .btn-login:hover {
+    background-color: #6e7072;
+    color: #fff;
+  }
+  .hero-heading {
+    margin-top: 100px;
+    margin-bottom: 300px;
+  }
+  .hero-heading h1 {
+    font-size: 75px;
+    font-weight: bold;
+    position: absolute;
+  }
+  .hero-heading h1 .heading-blue {
+    color: #316AFF;
+  }
+  .hero-heading .btn-get-started {
+    background-color: #316AFF;
+    color: #fff;
+    margin-top: 350px;
+  }
+  .hero-heading .btn-get-started:hover {
+    background-color: #5f8cfd;
+    color: #fff;
+  }
+  .hero-heading .btn-learn-more {
+    color: #B1B1B1;
+    border: 2px solid #B1B1B1;
+    margin-top: 350px;
+  }
+  .hero-heading .btn-learn-more:hover {
+    border: 2px solid #212B33;
+    color: #212B33;
+    font-weight: normal;
+  }
+  .section-software {
+    min-height: 500px;
+    background-color: #212B33;
+    margin-top: 80px;
+  }
+  .section-software .section-software-heading {
+    margin-top: 100px;
+  }
+  .section-software .section-software-heading h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+  }
+  .section-software .section-software-heading p {
+    font-size: 20px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+    color: #fff;
+  }
+  .section-software .section-software-heading .software-text-blue {
+    color: #316AFF;
+  }
+  .section-statistic {
+    margin: -100px 15px 30px;
+  }
+  .section-statistic .statistic-details {
+    background-color: #fff;
+    border-radius: 11px;
+    padding-left: 0px;
+    padding-top: 15px;
+    color: #212B33;
+  }
+  .section-statistic .statistic-details p {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+  }
+  .section-testimonial-heading {
+    margin-top: 50px;
+  }
+  .section-testimonial-heading h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .section-testimonial-heading .heading-testimonial .testi-blue {
+    color: #316AFF;
+  }
+  .section-testimonials {
+    margin-top: 50px;
+    min-height: 100vh;
+  }
+  .section-testimonials .card-testimonials {
+    min-height: 500px;
+    margin-bottom: 30px;
+    padding: 80px 40px 20px;
+    border-radius: 11px;
+  }
+  .section-testimonials .card-testimonials hr {
+    margin-right: -40px;
+    margin-left: -40px;
+  }
+  .section-testimonials .card-testimonials .testi-description {
+    min-height: 250px;
+  }
+  .section-testimonials .card-testimonials .testi-description .testi-content {
+    font-family: 'Assistant',sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: #212B33;
+  }
+  .section-testimonials .card-testimonials .profile-description .profile-image {
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    overflow: hidden;
+  }
+  .section-testimonials .card-testimonials .profile-description .name-profile {
+    float: left;
+    margin-left: 15px;
+    padding: 10px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 22px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
